@@ -1,0 +1,166 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+
+h1 {
+  font: bold 25px verdana, sans-serif;
+  color: black;
+}
+
+h2 {
+  font: bold 14px verdana, sans-serif;
+  color: white;
+
+}
+
+p {
+  font: bold 14px verdana, sans-serif;
+  color: black;
+}
+
+*{box-sizing:border-box;}
+
+    .container{
+      width:95%;
+      max-width:900px;
+      padding:32px 64px;
+      margin:auto;
+    }
+
+    .social{
+      /*las imágenes usadas tienen width de 48px*/
+      width:48px;
+      position:fixed;
+      top:50px;
+      right:0;
+    }
+
+    /* Extra centrado vertical*/
+
+    .social{
+      /*border:1px solid #000;*/
+      top:50%;
+      height:205px;
+      /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+      margin-top:-100px;
+    }
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+      display: block;
+      
+}
+
+.foto2 { padding: 0px; margin: 25px; margin-left: 25px; float: none;  width: 200px; height: 70px; }
+
+body {
+   max-width: 100%;
+   text-align: center;
+   background-color: black;
+}
+
+#agrupar {
+  
+  margin: auto;
+  width: 960px;
+  text-align: justify;
+}
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+
+#cabecera {
+  margin-top: 20px;
+  background: white;
+  width: auto;
+  height: 120px;
+}
+
+    
+#menu {
+  margin-top: 10px;
+  background: white;
+  padding: 6px 15px;
+
+}
+
+#menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana, sans-serif;
+  text color: black;
+}
+
+
+div#general{
+margin: auto;
+margin-top: 20px;
+width: 960px;
+height: auto;
+background-color:white;
+}
+
+
+div#body{
+  float: right;
+  margin-top: 26px;
+  margin-right: 33px;
+  margin-left: 15px;
+  margin-bottom: 2px;a
+  marker-end: 25px;a
+  width: 660px;
+  height: 830px;
+  background-color:white;
+}
+
+article {
+  width: 895px;
+  height: 800px;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+article footer {
+  color: white;
+  text-align: justify;
+}
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+
+#pie {
+  color: black;
+  clear: both;
+  text-align: center;
+  background-color:white;
+  padding: 3%;
+  border-top: 30px solid black;
+
+}
+
+time {
+  color: #white;
+}
+
+figcaption {
+  color: white;
+  font: italic 14px verdana, sans-serif;
+}
